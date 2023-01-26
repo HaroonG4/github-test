@@ -1,4 +1,7 @@
-x = int(input("Enter an int: "))
-print(x)
+x = int(input("Enter a Number: "))
+y = int(input("Enter a Number: "))
 
-print("Message 2")
+if y%x == 0  == 0:
+    print(f'{x} is a multiple of {y}')
+else:
+    print(f'{x} is not a multiple of {y}')
